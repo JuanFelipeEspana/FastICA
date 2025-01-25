@@ -1,0 +1,15 @@
+vsim work.test_multipliers
+# vsim work.test_multipliers 
+# Start time: 09:31:50 on Feb 01,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading altera_mf.altera_mf_components
+# Loading work.test_multipliers(rtl)
+# Loading work.parallel_adder(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.parallel_add(behaviour)
+# End time: 09:32:02 on Feb 01,2024, Elapsed time: 0:00:12
+# Errors: 0, Warnings: 0

@@ -1,0 +1,6 @@
+
+State Machine - |matrix_multiplication|pr_state
+Name pr_state.uploading_res pr_state.calculating pr_state.idle 
+pr_state.idle 0 0 0 
+pr_state.calculating 0 1 1 
+pr_state.uploading_res 1 0 1 

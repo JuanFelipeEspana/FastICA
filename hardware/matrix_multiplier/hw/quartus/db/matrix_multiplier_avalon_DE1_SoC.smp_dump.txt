@@ -1,0 +1,9 @@
+
+State Machine - |matrix_multiplier_avalon|matrix_multiplier_float:matrix_multiplier_unit|matrix_multiplier:matrix_mult|mac_array_controller:controller|mac_array_controller_fsm:finite_state_machine|pr_state
+Name pr_state.upload pr_state.wait_seg pr_state.operate pr_state.config_b pr_state.load_a pr_state.idle 
+pr_state.idle 0 0 0 0 0 0 
+pr_state.load_a 0 0 0 0 1 1 
+pr_state.config_b 0 0 0 1 0 1 
+pr_state.operate 0 0 1 0 0 1 
+pr_state.wait_seg 0 1 0 0 0 1 
+pr_state.upload 1 0 0 0 0 1 

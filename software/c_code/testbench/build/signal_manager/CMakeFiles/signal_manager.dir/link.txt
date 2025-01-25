@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,libsignal_manager.so -o libsignal_manager.so CMakeFiles/signal_manager.dir/signal_manager.c.o  -Wl,-rpath,/home/juanfelipe/Documents/universidad/tesis/software/c_code/testbench/build/array_utilities ../array_utilities/libarray_utilities.so 

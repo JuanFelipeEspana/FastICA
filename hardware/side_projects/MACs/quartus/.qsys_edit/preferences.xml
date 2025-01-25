@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <systemtable filter="All Interfaces">
+  <columns>
+   <connections preferredWidth="47" />
+   <irq preferredWidth="34" />
+  </columns>
+ </systemtable>
+ <library
+   expandedCategories="Library,Library/Basic Functions/DMA,Library/University Program/Audio &amp; Video,Library/Interface Protocols/PCI Express/QSYS Example Designs,Library/Interface Protocols/Audio &amp; Video,Library/Interface Protocols,Library/University Program,Library/Basic Functions/DMA/mSGDMA Sub-core,Library/University Program/Audio &amp; Video/Video,Project,Library/Interface Protocols/PCI Express,Library/Basic Functions" />
+ <window width="1440" height="873" x="0" y="27" />
+</preferences>

@@ -1,0 +1,1122 @@
+# 
+# stdin: <EOF>
+vlib work
+vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:49:32 on Dec 01,2023
+# vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity avalon_timer
+# -- Compiling architecture avalonMMslave of avalon_timer
+# ** Error: (vcom-11) Could not find work.univ_bin_counter.
+# ** Error (suppressible): /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(29): (vcom-1195) Cannot find expanded name "work.univ_bin_counter".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(29): Unknown expanded name.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(50): Illegal target for signal assignment.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(50): (vcom-1136) Unknown identifier "ena_reg".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(51): Enumeration literal '1' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(55): Illegal target for signal assignment.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(55): (vcom-1136) Unknown identifier "ena_reg".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(57): (vcom-1136) Unknown identifier "wr_b".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(57): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(58): (vcom-1136) Unknown identifier "ip_writedata".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(62): Illegal target for signal assignment.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(62): (vcom-1136) Unknown identifier "ena_reg".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(63): Enumeration literal '0' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(66): Illegal target for signal assignment.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(66): (vcom-1136) Unknown identifier "ena_reg".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(67): Enumeration literal '1' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(79): VHDL Compiler exiting
+# End time: 14:49:32 on Dec 01,2023, Elapsed time: 0:00:00
+# Errors: 18, Warnings: 0
+vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:49:32 on Dec 01,2023
+# vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity avalon_timer_tb
+# -- Compiling architecture testbench of avalon_timer_tb
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl(38): Illegal target for signal assignment.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl(38): (vcom-1136) Unknown identifier "count_addr".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl(40): Illegal target for signal assignment.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl(40): (vcom-1136) Unknown identifier "count_addr".
+# -- Loading entity avalon_timer
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl(51): (vcom-1136) Unknown identifier "count_addr".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl(51): (vcom-1484) Unknown formal identifier "count_addr".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl(57): VHDL Compiler exiting
+# End time: 14:49:32 on Dec 01,2023, Elapsed time: 0:00:00
+# Errors: 7, Warnings: 0
+vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/univ_bin_counter.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:49:32 on Dec 01,2023
+# vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/univ_bin_counter.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Compiling entity univ_bin_counter
+# -- Compiling architecture univ_bin_counter_arch of univ_bin_counter
+# End time: 14:49:32 on Dec 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:49:33 on Dec 01,2023
+# vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity avalon_timer
+# -- Compiling architecture avalonMMslave of avalon_timer
+# -- Loading package NUMERIC_STD
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading entity univ_bin_counter
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(36): (vcom-1136) Unknown identifier "ena_reg".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(42): (vcom-1136) Unknown identifier "set_done_tick_reg".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(37): Signal "sync_clr_reg" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(50): Illegal target for signal assignment.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(50): (vcom-1136) Unknown identifier "ena_reg".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(51): Enumeration literal '1' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(55): Illegal target for signal assignment.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(55): (vcom-1136) Unknown identifier "ena_reg".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(57): (vcom-1136) Unknown identifier "wr_b".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(57): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(58): (vcom-1136) Unknown identifier "ip_writedata".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(62): Illegal target for signal assignment.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(62): (vcom-1136) Unknown identifier "ena_reg".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(63): Enumeration literal '0' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(66): Illegal target for signal assignment.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(66): (vcom-1136) Unknown identifier "ena_reg".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(67): Enumeration literal '1' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(79): VHDL Compiler exiting
+# End time: 14:49:33 on Dec 01,2023, Elapsed time: 0:00:00
+# Errors: 18, Warnings: 0
+vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:49:33 on Dec 01,2023
+# vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity avalon_timer_tb
+# -- Compiling architecture testbench of avalon_timer_tb
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl(38): Illegal target for signal assignment.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl(38): (vcom-1136) Unknown identifier "count_addr".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl(40): Illegal target for signal assignment.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl(40): (vcom-1136) Unknown identifier "count_addr".
+# -- Loading entity avalon_timer
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl(51): (vcom-1136) Unknown identifier "count_addr".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl(51): (vcom-1484) Unknown formal identifier "count_addr".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl(57): VHDL Compiler exiting
+# End time: 14:49:33 on Dec 01,2023, Elapsed time: 0:00:00
+# Errors: 7, Warnings: 0
+vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/univ_bin_counter.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:49:33 on Dec 01,2023
+# vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/univ_bin_counter.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Compiling entity univ_bin_counter
+# -- Compiling architecture univ_bin_counter_arch of univ_bin_counter
+# End time: 14:49:33 on Dec 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:49:34 on Dec 01,2023
+# vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity avalon_timer
+# -- Compiling architecture avalonMMslave of avalon_timer
+# -- Loading package NUMERIC_STD
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading entity univ_bin_counter
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(36): (vcom-1136) Unknown identifier "ena_reg".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(42): (vcom-1136) Unknown identifier "set_done_tick_reg".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(37): Signal "sync_clr_reg" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(50): Illegal target for signal assignment.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(50): (vcom-1136) Unknown identifier "ena_reg".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(51): Enumeration literal '1' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(55): Illegal target for signal assignment.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(55): (vcom-1136) Unknown identifier "ena_reg".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(57): (vcom-1136) Unknown identifier "wr_b".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(57): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(58): (vcom-1136) Unknown identifier "ip_writedata".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(62): Illegal target for signal assignment.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(62): (vcom-1136) Unknown identifier "ena_reg".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(63): Enumeration literal '0' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(66): Illegal target for signal assignment.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(66): (vcom-1136) Unknown identifier "ena_reg".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(67): Enumeration literal '1' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(79): VHDL Compiler exiting
+# End time: 14:49:34 on Dec 01,2023, Elapsed time: 0:00:00
+# Errors: 18, Warnings: 0
+vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:49:34 on Dec 01,2023
+# vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity avalon_timer_tb
+# -- Compiling architecture testbench of avalon_timer_tb
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl(38): Illegal target for signal assignment.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl(38): (vcom-1136) Unknown identifier "count_addr".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl(40): Illegal target for signal assignment.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl(40): (vcom-1136) Unknown identifier "count_addr".
+# -- Loading entity avalon_timer
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl(51): (vcom-1136) Unknown identifier "count_addr".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl(51): (vcom-1484) Unknown formal identifier "count_addr".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl(57): VHDL Compiler exiting
+# End time: 14:49:34 on Dec 01,2023, Elapsed time: 0:00:00
+# Errors: 7, Warnings: 0
+vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/univ_bin_counter.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:49:34 on Dec 01,2023
+# vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/univ_bin_counter.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Compiling entity univ_bin_counter
+# -- Compiling architecture univ_bin_counter_arch of univ_bin_counter
+# End time: 14:49:35 on Dec 01,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:50:05 on Dec 01,2023
+# vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity avalon_timer
+# -- Compiling architecture avalonMMslave of avalon_timer
+# -- Loading package NUMERIC_STD
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading entity univ_bin_counter
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(36): (vcom-1136) Unknown identifier "ena_reg".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(42): (vcom-1136) Unknown identifier "set_done_tick_reg".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(37): Signal "sync_clr_reg" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(50): Illegal target for signal assignment.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(50): (vcom-1136) Unknown identifier "ena_reg".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(51): Enumeration literal '1' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(55): Illegal target for signal assignment.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(55): (vcom-1136) Unknown identifier "ena_reg".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(57): (vcom-1136) Unknown identifier "wr_b".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(57): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(58): (vcom-1136) Unknown identifier "ip_writedata".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(62): Illegal target for signal assignment.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(62): (vcom-1136) Unknown identifier "ena_reg".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(63): Enumeration literal '0' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(66): Illegal target for signal assignment.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(66): (vcom-1136) Unknown identifier "ena_reg".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(67): Enumeration literal '1' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(79): VHDL Compiler exiting
+# End time: 14:50:05 on Dec 01,2023, Elapsed time: 0:00:00
+# Errors: 18, Warnings: 0
+vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:50:05 on Dec 01,2023
+# vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity avalon_timer_tb
+# -- Compiling architecture testbench of avalon_timer_tb
+# -- Loading entity avalon_timer
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl(51): (vcom-1484) Unknown formal identifier "count_addr".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl(57): VHDL Compiler exiting
+# End time: 14:50:05 on Dec 01,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/univ_bin_counter.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:50:05 on Dec 01,2023
+# vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/univ_bin_counter.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Compiling entity univ_bin_counter
+# -- Compiling architecture univ_bin_counter_arch of univ_bin_counter
+# End time: 14:50:05 on Dec 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:50:06 on Dec 01,2023
+# vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity avalon_timer
+# -- Compiling architecture avalonMMslave of avalon_timer
+# -- Loading package NUMERIC_STD
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading entity univ_bin_counter
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(36): (vcom-1136) Unknown identifier "ena_reg".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(42): (vcom-1136) Unknown identifier "set_done_tick_reg".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(37): Signal "sync_clr_reg" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(50): Illegal target for signal assignment.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(50): (vcom-1136) Unknown identifier "ena_reg".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(51): Enumeration literal '1' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(55): Illegal target for signal assignment.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(55): (vcom-1136) Unknown identifier "ena_reg".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(57): (vcom-1136) Unknown identifier "wr_b".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(57): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(58): (vcom-1136) Unknown identifier "ip_writedata".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(62): Illegal target for signal assignment.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(62): (vcom-1136) Unknown identifier "ena_reg".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(63): Enumeration literal '0' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(66): Illegal target for signal assignment.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(66): (vcom-1136) Unknown identifier "ena_reg".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(67): Enumeration literal '1' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(79): VHDL Compiler exiting
+# End time: 14:50:06 on Dec 01,2023, Elapsed time: 0:00:00
+# Errors: 18, Warnings: 0
+vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:50:06 on Dec 01,2023
+# vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity avalon_timer_tb
+# -- Compiling architecture testbench of avalon_timer_tb
+# -- Loading entity avalon_timer
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl(51): (vcom-1484) Unknown formal identifier "count_addr".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl(57): VHDL Compiler exiting
+# End time: 14:50:06 on Dec 01,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/univ_bin_counter.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:50:06 on Dec 01,2023
+# vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/univ_bin_counter.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Compiling entity univ_bin_counter
+# -- Compiling architecture univ_bin_counter_arch of univ_bin_counter
+# End time: 14:50:06 on Dec 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:50:24 on Dec 01,2023
+# vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity avalon_timer
+# -- Compiling architecture avalonMMslave of avalon_timer
+# -- Loading package NUMERIC_STD
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading entity univ_bin_counter
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(36): (vcom-1136) Unknown identifier "ena_reg".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(42): (vcom-1136) Unknown identifier "set_done_tick_reg".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(37): Signal "sync_clr_reg" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(50): Illegal target for signal assignment.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(50): (vcom-1136) Unknown identifier "ena_reg".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(51): Enumeration literal '1' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(55): Illegal target for signal assignment.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(55): (vcom-1136) Unknown identifier "ena_reg".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(57): (vcom-1136) Unknown identifier "wr_b".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(57): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(58): (vcom-1136) Unknown identifier "ip_writedata".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(62): Illegal target for signal assignment.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(62): (vcom-1136) Unknown identifier "ena_reg".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(63): Enumeration literal '0' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(66): Illegal target for signal assignment.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(66): (vcom-1136) Unknown identifier "ena_reg".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(67): Enumeration literal '1' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(79): VHDL Compiler exiting
+# End time: 14:50:24 on Dec 01,2023, Elapsed time: 0:00:00
+# Errors: 18, Warnings: 0
+vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:50:24 on Dec 01,2023
+# vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity avalon_timer_tb
+# -- Compiling architecture testbench of avalon_timer_tb
+# -- Loading entity avalon_timer
+# End time: 14:50:24 on Dec 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/univ_bin_counter.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:50:24 on Dec 01,2023
+# vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/univ_bin_counter.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Compiling entity univ_bin_counter
+# -- Compiling architecture univ_bin_counter_arch of univ_bin_counter
+# End time: 14:50:24 on Dec 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:50:25 on Dec 01,2023
+# vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity avalon_timer
+# -- Compiling architecture avalonMMslave of avalon_timer
+# -- Loading package NUMERIC_STD
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading entity univ_bin_counter
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(36): (vcom-1136) Unknown identifier "ena_reg".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(42): (vcom-1136) Unknown identifier "set_done_tick_reg".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(37): Signal "sync_clr_reg" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(50): Illegal target for signal assignment.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(50): (vcom-1136) Unknown identifier "ena_reg".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(51): Enumeration literal '1' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(55): Illegal target for signal assignment.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(55): (vcom-1136) Unknown identifier "ena_reg".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(57): (vcom-1136) Unknown identifier "wr_b".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(57): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(58): (vcom-1136) Unknown identifier "ip_writedata".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(62): Illegal target for signal assignment.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(62): (vcom-1136) Unknown identifier "ena_reg".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(63): Enumeration literal '0' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(66): Illegal target for signal assignment.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(66): (vcom-1136) Unknown identifier "ena_reg".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(67): Enumeration literal '1' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(79): VHDL Compiler exiting
+# End time: 14:50:25 on Dec 01,2023, Elapsed time: 0:00:00
+# Errors: 18, Warnings: 0
+vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:50:25 on Dec 01,2023
+# vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity avalon_timer_tb
+# -- Compiling architecture testbench of avalon_timer_tb
+# -- Loading entity avalon_timer
+# End time: 14:50:25 on Dec 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/univ_bin_counter.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:50:25 on Dec 01,2023
+# vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/univ_bin_counter.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Compiling entity univ_bin_counter
+# -- Compiling architecture univ_bin_counter_arch of univ_bin_counter
+# End time: 14:50:25 on Dec 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+help
+# Type help <command> to get information on that command, or try one of the following:
+#   commands  List all available commands and topics.
+#   Debugging Lists debugging commands.
+#   Execution Information on controlling execution of the simulation.
+#   Tcl       Information on Tcl commands.
+#   Tk        Information on Tk commands.
+#   incrTcl   Information on incrTcl commands.
+# 
+vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:50:36 on Dec 01,2023
+# vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity avalon_timer
+# -- Compiling architecture avalonMMslave of avalon_timer
+# -- Loading package NUMERIC_STD
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading entity univ_bin_counter
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(36): (vcom-1136) Unknown identifier "ena_reg".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(42): (vcom-1136) Unknown identifier "set_done_tick_reg".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(37): Signal "sync_clr_reg" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(50): Illegal target for signal assignment.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(50): (vcom-1136) Unknown identifier "ena_reg".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(51): Enumeration literal '1' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(55): Illegal target for signal assignment.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(55): (vcom-1136) Unknown identifier "ena_reg".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(57): (vcom-1136) Unknown identifier "wr_b".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(57): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(58): (vcom-1136) Unknown identifier "ip_writedata".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(62): Illegal target for signal assignment.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(62): (vcom-1136) Unknown identifier "ena_reg".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(63): Enumeration literal '0' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(66): Illegal target for signal assignment.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(66): (vcom-1136) Unknown identifier "ena_reg".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(67): Enumeration literal '1' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(79): VHDL Compiler exiting
+# End time: 14:50:36 on Dec 01,2023, Elapsed time: 0:00:00
+# Errors: 18, Warnings: 0
+vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:50:36 on Dec 01,2023
+# vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity avalon_timer_tb
+# -- Compiling architecture testbench of avalon_timer_tb
+# -- Loading entity avalon_timer
+# End time: 14:50:36 on Dec 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/univ_bin_counter.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:50:36 on Dec 01,2023
+# vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/univ_bin_counter.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Compiling entity univ_bin_counter
+# -- Compiling architecture univ_bin_counter_arch of univ_bin_counter
+# End time: 14:50:36 on Dec 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:51:53 on Dec 01,2023
+# vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity avalon_timer
+# -- Compiling architecture avalonMMslave of avalon_timer
+# -- Loading package NUMERIC_STD
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading entity univ_bin_counter
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(56): (vcom-1136) Unknown identifier "ip_writedata".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(58): (vcom-1136) Unknown identifier "wr_b".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(58): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(59): (vcom-1136) Unknown identifier "ip_writedata".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(80): VHDL Compiler exiting
+# End time: 14:51:53 on Dec 01,2023, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:51:53 on Dec 01,2023
+# vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity avalon_timer_tb
+# -- Compiling architecture testbench of avalon_timer_tb
+# -- Loading entity avalon_timer
+# End time: 14:51:53 on Dec 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/univ_bin_counter.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:51:53 on Dec 01,2023
+# vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/univ_bin_counter.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Compiling entity univ_bin_counter
+# -- Compiling architecture univ_bin_counter_arch of univ_bin_counter
+# End time: 14:51:53 on Dec 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:51:54 on Dec 01,2023
+# vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity avalon_timer
+# -- Compiling architecture avalonMMslave of avalon_timer
+# -- Loading package NUMERIC_STD
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading entity univ_bin_counter
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(56): (vcom-1136) Unknown identifier "ip_writedata".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(58): (vcom-1136) Unknown identifier "wr_b".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(58): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(59): (vcom-1136) Unknown identifier "ip_writedata".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(80): VHDL Compiler exiting
+# End time: 14:51:54 on Dec 01,2023, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:51:54 on Dec 01,2023
+# vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity avalon_timer_tb
+# -- Compiling architecture testbench of avalon_timer_tb
+# -- Loading entity avalon_timer
+# End time: 14:51:54 on Dec 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/univ_bin_counter.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:51:54 on Dec 01,2023
+# vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/univ_bin_counter.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Compiling entity univ_bin_counter
+# -- Compiling architecture univ_bin_counter_arch of univ_bin_counter
+# End time: 14:51:54 on Dec 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:52:31 on Dec 01,2023
+# vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity avalon_timer
+# -- Compiling architecture avalonMMslave of avalon_timer
+# -- Loading package NUMERIC_STD
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading entity univ_bin_counter
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(56): Signal "count_writedata" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(58): (vcom-1136) Unknown identifier "wr_b".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(58): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(59): Signal "count_writedata" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(80): VHDL Compiler exiting
+# End time: 14:52:31 on Dec 01,2023, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:52:31 on Dec 01,2023
+# vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity avalon_timer_tb
+# -- Compiling architecture testbench of avalon_timer_tb
+# -- Loading entity avalon_timer
+# End time: 14:52:31 on Dec 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/univ_bin_counter.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:52:31 on Dec 01,2023
+# vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/univ_bin_counter.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Compiling entity univ_bin_counter
+# -- Compiling architecture univ_bin_counter_arch of univ_bin_counter
+# End time: 14:52:32 on Dec 01,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:52:32 on Dec 01,2023
+# vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity avalon_timer
+# -- Compiling architecture avalonMMslave of avalon_timer
+# -- Loading package NUMERIC_STD
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading entity univ_bin_counter
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(56): Signal "count_writedata" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(58): (vcom-1136) Unknown identifier "wr_b".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(58): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(59): Signal "count_writedata" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(80): VHDL Compiler exiting
+# End time: 14:52:32 on Dec 01,2023, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:52:32 on Dec 01,2023
+# vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity avalon_timer_tb
+# -- Compiling architecture testbench of avalon_timer_tb
+# -- Loading entity avalon_timer
+# End time: 14:52:32 on Dec 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/univ_bin_counter.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:52:32 on Dec 01,2023
+# vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/univ_bin_counter.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Compiling entity univ_bin_counter
+# -- Compiling architecture univ_bin_counter_arch of univ_bin_counter
+# End time: 14:52:32 on Dec 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+help
+# Type help <command> to get information on that command, or try one of the following:
+#   commands  List all available commands and topics.
+#   Debugging Lists debugging commands.
+#   Execution Information on controlling execution of the simulation.
+#   Tcl       Information on Tcl commands.
+#   Tk        Information on Tk commands.
+#   incrTcl   Information on incrTcl commands.
+# 
+vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:52:42 on Dec 01,2023
+# vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity avalon_timer
+# -- Compiling architecture avalonMMslave of avalon_timer
+# -- Loading package NUMERIC_STD
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading entity univ_bin_counter
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(56): Signal "count_writedata" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(58): (vcom-1136) Unknown identifier "wr_b".
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(58): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(59): Signal "count_writedata" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl(80): VHDL Compiler exiting
+# End time: 14:52:42 on Dec 01,2023, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:52:42 on Dec 01,2023
+# vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity avalon_timer_tb
+# -- Compiling architecture testbench of avalon_timer_tb
+# -- Loading entity avalon_timer
+# End time: 14:52:42 on Dec 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/univ_bin_counter.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:52:42 on Dec 01,2023
+# vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/univ_bin_counter.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Compiling entity univ_bin_counter
+# -- Compiling architecture univ_bin_counter_arch of univ_bin_counter
+# End time: 14:52:42 on Dec 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:53:41 on Dec 01,2023
+# vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity avalon_timer
+# -- Compiling architecture avalonMMslave of avalon_timer
+# -- Loading package NUMERIC_STD
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading entity univ_bin_counter
+# End time: 14:53:41 on Dec 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:53:41 on Dec 01,2023
+# vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity avalon_timer_tb
+# -- Compiling architecture testbench of avalon_timer_tb
+# -- Loading entity avalon_timer
+# End time: 14:53:41 on Dec 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/univ_bin_counter.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:53:41 on Dec 01,2023
+# vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/univ_bin_counter.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Compiling entity univ_bin_counter
+# -- Compiling architecture univ_bin_counter_arch of univ_bin_counter
+# End time: 14:53:41 on Dec 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:53:41 on Dec 01,2023
+# vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity avalon_timer
+# -- Compiling architecture avalonMMslave of avalon_timer
+# -- Loading package NUMERIC_STD
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading entity univ_bin_counter
+# End time: 14:53:41 on Dec 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:53:41 on Dec 01,2023
+# vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity avalon_timer_tb
+# -- Compiling architecture testbench of avalon_timer_tb
+# -- Loading entity avalon_timer
+# End time: 14:53:42 on Dec 01,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/univ_bin_counter.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:53:42 on Dec 01,2023
+# vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/univ_bin_counter.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Compiling entity univ_bin_counter
+# -- Compiling architecture univ_bin_counter_arch of univ_bin_counter
+# End time: 14:53:42 on Dec 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+help
+# Type help <command> to get information on that command, or try one of the following:
+#   commands  List all available commands and topics.
+#   Debugging Lists debugging commands.
+#   Execution Information on controlling execution of the simulation.
+#   Tcl       Information on Tcl commands.
+#   Tk        Information on Tk commands.
+#   incrTcl   Information on incrTcl commands.
+# 
+vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:53:49 on Dec 01,2023
+# vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity avalon_timer
+# -- Compiling architecture avalonMMslave of avalon_timer
+# -- Loading package NUMERIC_STD
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading entity univ_bin_counter
+# End time: 14:53:49 on Dec 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:53:49 on Dec 01,2023
+# vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity avalon_timer_tb
+# -- Compiling architecture testbench of avalon_timer_tb
+# -- Loading entity avalon_timer
+# End time: 14:53:49 on Dec 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/univ_bin_counter.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:53:49 on Dec 01,2023
+# vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/univ_bin_counter.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Compiling entity univ_bin_counter
+# -- Compiling architecture univ_bin_counter_arch of univ_bin_counter
+# End time: 14:53:49 on Dec 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.avalon_timer_tb
+# vsim work.avalon_timer_tb 
+# Start time: 14:53:53 on Dec 01,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.avalon_timer_tb(testbench)
+# Loading ieee.numeric_std(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading altera.dffeas_pack
+# Loading altera.altera_primitives_components
+# Loading work.avalon_timer(avalonmmslave)
+# Loading work.univ_bin_counter(univ_bin_counter_arch)
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/avalon_timer_tb/clk_tb \
+sim:/avalon_timer_tb/rst_tb \
+sim:/avalon_timer_tb/count_addr \
+sim:/avalon_timer_tb/count_cs \
+sim:/avalon_timer_tb/count_wr \
+sim:/avalon_timer_tb/count_wrd \
+sim:/avalon_timer_tb/count_rdd
+run 5us
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libpthread.so.0 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/librt.so.1 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libdl.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libm.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libc.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/ld-linux.so.2 : module was loaded at an absolute address.
+add wave -position insertpoint  \
+sim:/avalon_timer_tb/DUT/clk_counter/counter
+restart
+run 5us
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libpthread.so.0 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/librt.so.1 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libdl.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libm.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libc.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/ld-linux.so.2 : module was loaded at an absolute address.
+add wave -position insertpoint  \
+sim:/avalon_timer_tb/DUT/ena_reg
+restart
+run 5us
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libpthread.so.0 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/librt.so.1 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libdl.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libm.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libc.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/ld-linux.so.2 : module was loaded at an absolute address.
+add wave -position insertpoint  \
+sim:/avalon_timer_tb/DUT/clk_counter/sync_clr
+restart
+run 5uz
+# Invalid time value: 5uz
+run 5us
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libpthread.so.0 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/librt.so.1 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libdl.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libm.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libc.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/ld-linux.so.2 : module was loaded at an absolute address.
+vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:56:23 on Dec 01,2023
+# vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity avalon_timer
+# -- Compiling architecture avalonMMslave of avalon_timer
+# -- Loading package NUMERIC_STD
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading entity univ_bin_counter
+# End time: 14:56:23 on Dec 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:56:23 on Dec 01,2023
+# vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity avalon_timer_tb
+# -- Compiling architecture testbench of avalon_timer_tb
+# -- Loading entity avalon_timer
+# End time: 14:56:23 on Dec 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/univ_bin_counter.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:56:23 on Dec 01,2023
+# vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/univ_bin_counter.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Compiling entity univ_bin_counter
+# -- Compiling architecture univ_bin_counter_arch of univ_bin_counter
+# End time: 14:56:23 on Dec 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.avalon_timer_tb(testbench)
+# Loading work.avalon_timer(avalonmmslave)
+# Loading work.univ_bin_counter(univ_bin_counter_arch)
+run 5us
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libpthread.so.0 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/librt.so.1 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libdl.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libm.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libc.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/ld-linux.so.2 : module was loaded at an absolute address.
+vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:00:11 on Dec 01,2023
+# vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity avalon_timer
+# -- Compiling architecture avalonMMslave of avalon_timer
+# -- Loading package NUMERIC_STD
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading entity univ_bin_counter
+# End time: 15:00:11 on Dec 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:00:11 on Dec 01,2023
+# vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity avalon_timer_tb
+# -- Compiling architecture testbench of avalon_timer_tb
+# -- Loading entity avalon_timer
+# End time: 15:00:11 on Dec 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/univ_bin_counter.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:00:11 on Dec 01,2023
+# vcom -reportprogress 300 -work work /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/univ_bin_counter.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Compiling entity univ_bin_counter
+# -- Compiling architecture univ_bin_counter_arch of univ_bin_counter
+# End time: 15:00:11 on Dec 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.avalon_timer_tb(testbench)
+# Loading work.avalon_timer(avalonmmslave)
+# Loading work.univ_bin_counter(univ_bin_counter_arch)
+add wave -position insertpoint  \
+sim:/avalon_timer_tb/DUT/done_tick_reg
+run 5us
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libpthread.so.0 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/librt.so.1 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libdl.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libm.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libc.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/ld-linux.so.2 : module was loaded at an absolute address.
+# End time: 15:21:47 on Dec 01,2023, Elapsed time: 0:27:54
+# Errors: 1, Warnings: 43

@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,libvhdl_signal_manager.so -o libvhdl_signal_manager.so CMakeFiles/vhdl_signal_manager.dir/vhdl_signal_manager.c.o  -Wl,-rpath,/home/juanfelipe/Documents/universidad/tesis/software/c_code/code/build/array_utilities ../array_utilities/libarray_utilities.so 

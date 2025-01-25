@@ -1,0 +1,408 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/juanfelipe/Documents/UNIVERSIDAD/tesis/dsp_multiplier
+valtera_mult_add_rtl
+Z1 !s110 1702405043
+!i10b 1
+!s100 7<@edohC<zofL6318Qk?52
+ITGI5oW`Zzo[i0B@F=MDnZ2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1536791156
+Z4 8/usr/local/Quartus/quartus/libraries/megafunctions/altera_mult_add_rtl.v
+Z5 F/usr/local/Quartus/quartus/libraries/megafunctions/altera_mult_add_rtl.v
+L0 9
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1702405043.000000
+Z8 !s107 /usr/local/Quartus/quartus/libraries/megafunctions/altera_mult_add_rtl.v|
+Z9 !s90 -reportprogress|300|-work|work|/usr/local/Quartus/quartus/libraries/megafunctions/altera_mult_add_rtl.v|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vama_adder_function
+R1
+!i10b 1
+!s100 XTWl57hzh5nW2KSM1eo@^3
+I4Yb:?bd`Y=dSMSZ@UCiYN0
+R2
+R0
+R3
+R4
+R5
+L0 2569
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vama_chainout_adder_accumulator_function
+R1
+!i10b 1
+!s100 ]h_:<[Q=d2^jJ]@;jgBS=1
+I6J1CO85^jNzCI@oGYekzD2
+R2
+R0
+R3
+R4
+R5
+L0 3390
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vama_coef_reg_ext_function
+R1
+!i10b 1
+!s100 XmkZZWmXzAJ=BB0Ie8LCW2
+I8_XIfbZ>0MHXKCQ>>Dg[X1
+R2
+R0
+R3
+R4
+R5
+L0 2177
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vama_data_split_reg_ext_function
+R1
+!i10b 1
+!s100 19R4UzXiS_o^e2PnQiGRg3
+Iim7>XPD2jXOF828n2VaY@0
+R2
+R0
+R3
+R4
+R5
+L0 1848
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vama_dynamic_signed_function
+R1
+!i10b 1
+!s100 LcS65b9`aEMno3X[?BRAL1
+IAL02=GCjQBhQ1f:^F9IRO1
+R2
+R0
+R3
+R4
+R5
+L0 1559
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vama_latency_function
+R1
+!i10b 1
+!s100 lI5iYQ`?hK>YiPM<]djFJ2
+I2]BfDX=L[;bZ0Jg9d:COa0
+R2
+R0
+R3
+R4
+R5
+L0 4240
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vama_multiplier_function
+R1
+!i10b 1
+!s100 `bn3fV308zS1X4_P`cc0l2
+ILHf4hAlP`BAeRK;UdWd9U0
+R2
+R0
+R3
+R4
+R5
+L0 2879
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vama_preadder_function
+R1
+!i10b 1
+!s100 RoD8Vha=P9QTY;89aeie^3
+Ijzi;e<cz4Kf3Rf;mOR^jX1
+R2
+R0
+R3
+R4
+R5
+L0 3124
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vama_register_function
+R1
+!i10b 1
+!s100 e6GoMXkWSA:?S^P0SFJk`3
+IHU?a`KNW@g0>]?8<ADE[`1
+R2
+R0
+R3
+R4
+R5
+L0 1619
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vama_register_with_ext_function
+R1
+!i10b 1
+!s100 JCDVGPYfcGFic<aVhX35E2
+IJATZPRUAf4`I];JW1;MK<2
+R2
+R0
+R3
+R4
+R5
+L0 1747
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vama_scanchain
+R1
+!i10b 1
+!s100 0fZAQmh3mVT5o]O3:3aVG1
+I1j3mK9DC=A=mZ??<aX8FS1
+R2
+R0
+R3
+R4
+R5
+L0 4007
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vama_signed_extension_function
+R1
+!i10b 1
+!s100 UHIN>O;@b9km^BZd`^Xhl0
+IzTbeeULB=Bi6WTT[^<ER[0
+R2
+R0
+R3
+R4
+R5
+L0 1501
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vama_systolic_adder_function
+R1
+!i10b 1
+!s100 KgI560j10SAE3FUHnD<H>0
+IK2aF8XEa[1nNFb?9CY<QH1
+R2
+R0
+R3
+R4
+R5
+L0 3700
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+Edsp
+Z12 w1702404784
+Z13 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z14 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z15 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z16 8/home/juanfelipe/Documents/UNIVERSIDAD/tesis/dsp_multiplier/dsp.vhd
+Z17 F/home/juanfelipe/Documents/UNIVERSIDAD/tesis/dsp_multiplier/dsp.vhd
+l0
+L11
+VnUgi^0MdWHb?T]l9_LDb_2
+!s100 ^II=Aa:0STjW]O_CcMzFM2
+Z18 OV;C;10.5b;63
+32
+Z19 !s110 1702605834
+!i10b 1
+Z20 !s108 1702605834.000000
+Z21 !s90 -reportprogress|300|-work|work|/home/juanfelipe/Documents/UNIVERSIDAD/tesis/dsp_multiplier/dsp.vhd|
+Z22 !s107 /home/juanfelipe/Documents/UNIVERSIDAD/tesis/dsp_multiplier/dsp.vhd|
+!i113 1
+R10
+Z23 tExplicit 1 CvgOpt 0
+Artl
+R13
+R14
+R15
+Z24 DEx4 work 3 dsp 0 22 nUgi^0MdWHb?T]l9_LDb_2
+l34
+L22
+VYY^efZTeBK_hOc4ToEaY50
+!s100 ka^RYm9=W:i58G^h=M=LV1
+R18
+32
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R10
+R23
+vdsp_0002
+!s110 1702405088
+!i10b 1
+!s100 7Df1jM;cLfBo4<@lPfg`P1
+IEb1YDAH[EegGImHF;Y8;F1
+R2
+R0
+w1702405070
+8/home/juanfelipe/Documents/UNIVERSIDAD/tesis/dsp_multiplier/dsp/dsp_0002.v
+F/home/juanfelipe/Documents/UNIVERSIDAD/tesis/dsp_multiplier/dsp/dsp_0002.v
+L0 17
+R6
+r1
+!s85 0
+31
+!s108 1702405088.000000
+!s107 /home/juanfelipe/Documents/UNIVERSIDAD/tesis/dsp_multiplier/dsp/dsp_0002.v|
+!s90 -reportprogress|300|-work|work|/home/juanfelipe/Documents/UNIVERSIDAD/tesis/dsp_multiplier/dsp/dsp_0002.v|
+!i113 1
+R10
+R11
+Ematrix_x_tb
+Z25 w1702606086
+R13
+R14
+R15
+R0
+Z26 8/home/juanfelipe/Documents/UNIVERSIDAD/tesis/dsp_multiplier/matrix_x_tb.vhdl
+Z27 F/home/juanfelipe/Documents/UNIVERSIDAD/tesis/dsp_multiplier/matrix_x_tb.vhdl
+l0
+L5
+Vz:^mC>_4;=9_23Aoz=<a00
+!s100 661hY23=oEEde8l]kEYFF1
+R18
+32
+Z28 !s110 1702606090
+!i10b 1
+Z29 !s108 1702606090.000000
+Z30 !s90 -reportprogress|300|-work|work|/home/juanfelipe/Documents/UNIVERSIDAD/tesis/dsp_multiplier/matrix_x_tb.vhdl|
+Z31 !s107 /home/juanfelipe/Documents/UNIVERSIDAD/tesis/dsp_multiplier/matrix_x_tb.vhdl|
+!i113 1
+R10
+R23
+Atestbench
+R24
+R13
+R14
+R15
+Z32 DEx4 work 11 matrix_x_tb 0 22 z:^mC>_4;=9_23Aoz=<a00
+l15
+L8
+VI3mIW??K:[bQ;2AL7In003
+!s100 ]ZzFURCZ<TP_ci=4iIeQj0
+R18
+32
+R28
+!i10b 1
+R29
+R30
+R31
+!i113 1
+R10
+R23

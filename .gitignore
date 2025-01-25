@@ -1,0 +1,8 @@
+#IGNORE ALL EMACS BACKUP FILES
+*.*~
+#IGNORE ALL QUARTUS BACKUP FILES
+*.*.bak
+#IGNORE MODELSIM LIBRARIES
+/modelsim/work/
+hardware/matrix_multiplier_definitive_100.zip
+software/c_code/testbench/error.csv

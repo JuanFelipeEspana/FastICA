@@ -1,0 +1,7 @@
+BITACORA
+
+09/01/2024
+Insatisfecho con los resultados obtenidos al implementar el multiplicador védico, propuesto como uno de los más veloces en cuánto a su implementación, y al conocer que la frecuencia máxima de operación de los DSPs integrados en la tarjeta es de 250MHz, se busca una manera más adecuada para poder incrementar la velocidad de las multiplicaciones hechas por nuestro hardware. Por este motivo, se planea revisar las siguientes arquitecturas:
+- Utilizando sumadores junto con multiplexores.
+- Máquinas de estados finitos con un ciclo de reloj mucho más alto.
+- ...

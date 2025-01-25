@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "matrix.h": "c",
+        "vector": "c",
+        "matrix_multiplier_arch.h": "c"
+    }
+}

@@ -1,0 +1,302 @@
+/home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/modelsim/matrix_multiplier_avalon_tb.vhdl {1 {vcom -work work -2002 -explicit -stats=none /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/modelsim/matrix_multiplier_avalon_tb.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity matrix_multiplier_avalon_tb
+-- Compiling architecture testbench of matrix_multiplier_avalon_tb
+-- Loading entity matrix_multiplier_avalon
+
+} {} {}} /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/matrix_multiplier_float/matrix_multiplier/result_decoder/result_decoder.vhdl {1 {vcom -work work -2002 -explicit -stats=none /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/matrix_multiplier_float/matrix_multiplier/result_decoder/result_decoder.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package type_results
+-- Compiling entity result_decoder
+-- Compiling architecture rtl of result_decoder
+-- Loading entity barrelShifterLeft
+
+} {} {}} /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/matrix_multiplier_float/matrix_multiplier/mac_array_controller/memory_decoder/row_decoder/row_decoder.vhdl {1 {vcom -work work -2002 -explicit -stats=none /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/matrix_multiplier_float/matrix_multiplier/mac_array_controller/memory_decoder/row_decoder/row_decoder.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity row_decoder
+-- Compiling architecture rtl of row_decoder
+-- Loading entity barrelShifter
+
+} {} {}} /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/matrix_multiplier_float/matrix_multiplier/mac_array/mac_with_memory/mac/multiplier.vhdl {1 {vcom -work work -2002 -explicit -stats=none /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/matrix_multiplier_float/matrix_multiplier/mac_array/mac_with_memory/mac/multiplier.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity multiplier
+-- Compiling architecture rtl of multiplier
+-- Loading package altera_mf_components
+-- Loading entity parallel_adder
+
+} {} {}} /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/utilities/barrelShifterLeft/barrelShifterLeft.vhdl {1 {vcom -work work -2002 -explicit -stats=none /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/utilities/barrelShifterLeft/barrelShifterLeft.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity barrelShifterLeft
+-- Compiling architecture rtl of barrelShifterLeft
+-- Loading entity singleBarrelShifterLeft
+
+} {} {}} /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/matrix_multiplier_avalon.vhdl {1 {vcom -work work -2002 -explicit -stats=none /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/matrix_multiplier_avalon.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity matrix_multiplier_avalon
+-- Compiling architecture rtl of matrix_multiplier_avalon
+-- Loading entity univ_bin_counter
+-- Loading entity matrix_multiplier_float
+
+} {} {}} /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/matrix_multiplier_float/number_converters/float32_to_integer.vhdl {1 {vcom -work work -2002 -explicit -stats=none /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/matrix_multiplier_float/number_converters/float32_to_integer.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity float32_to_integer
+-- Compiling architecture rtl of float32_to_integer
+-- Loading entity barrelShifter
+
+} {} {}} /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/matrix_multiplier_float/matrix_multiplier/mac_array_controller/counters/operation_counter/operation_counter.vhdl {1 {vcom -work work -2002 -explicit -stats=none /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/matrix_multiplier_float/matrix_multiplier/mac_array_controller/counters/operation_counter/operation_counter.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity operation_counter
+-- Compiling architecture rtl of operation_counter
+-- Loading entity univ_bin_counter
+
+} {} {}} /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/utilities/barrel_shifter/barrelShifter.vhdl {1 {vcom -work work -2002 -explicit -stats=none /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/utilities/barrel_shifter/barrelShifter.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity barrelShifter
+-- Compiling architecture rtl of barrelShifter
+-- Loading entity singleBarrelShifter
+
+} {} {}} /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/matrix_multiplier_float/matrix_multiplier/matrix_multiplier.vhdl {1 {vcom -work work -2002 -explicit -stats=none /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/matrix_multiplier_float/matrix_multiplier/matrix_multiplier.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package type_results
+-- Compiling entity matrix_multiplier
+-- Compiling architecture rtl of matrix_multiplier
+-- Loading entity mac_array_controller
+-- Loading entity mac_array
+-- Loading entity result_decoder
+
+} {} {}} /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/utilities/univ_bin_counter.vhdl {1 {vcom -work work -2002 -explicit -stats=none /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/utilities/univ_bin_counter.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity univ_bin_counter
+-- Compiling architecture univ_bin_counter_arch of univ_bin_counter
+
+} {} {}} /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/matrix_multiplier_float/matrix_multiplier/mac_array_controller/counters/shifter_counter/row_counter.vhdl {1 {vcom -work work -2002 -explicit -stats=none /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/matrix_multiplier_float/matrix_multiplier/mac_array_controller/counters/shifter_counter/row_counter.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity row_counter
+-- Compiling architecture rtl of row_counter
+
+} {} {}} /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/matrix_multiplier_float/matrix_multiplier/mac_array/mac_with_memory/mac_with_memory.vhdl {1 {vcom -work work -2002 -explicit -stats=none /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/matrix_multiplier_float/matrix_multiplier/mac_array/mac_with_memory/mac_with_memory.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mac_with_memory
+-- Compiling architecture rtl of mac_with_memory
+-- Loading entity mac
+-- Loading entity single_memory
+
+} {} {}} /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/matrix_multiplier_float/matrix_multiplier/mac_array/mac_with_memory/memory/memory.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/matrix_multiplier_float/matrix_multiplier/mac_array/mac_with_memory/memory/memory.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity memory
+-- Compiling architecture SYN of memory
+
+} {} {}} /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/matrix_multiplier_float/matrix_multiplier/mac_array_controller/macs_ena/macs_ena.vhdl {1 {vcom -work work -2002 -explicit -stats=none /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/matrix_multiplier_float/matrix_multiplier/mac_array_controller/macs_ena/macs_ena.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity macs_ena
+-- Compiling architecture rtl of macs_ena
+-- Loading entity barrelShifter
+
+} {} {}} /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/matrix_multiplier_float/matrix_multiplier/mac_array/mac_with_memory/mac/sub_add/sub_adder.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/matrix_multiplier_float/matrix_multiplier/mac_array/mac_with_memory/mac/sub_add/sub_adder.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity sub_adder
+-- Compiling architecture SYN of sub_adder
+
+} {} {}} /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/matrix_multiplier_float/matrix_multiplier/mac_array_controller/mac_array_controller_fsm.vhdl {1 {vcom -work work -2002 -explicit -stats=none /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/matrix_multiplier_float/matrix_multiplier/mac_array_controller/mac_array_controller_fsm.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mac_array_controller_fsm
+-- Compiling architecture rtl of mac_array_controller_fsm
+
+} {} {}} /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/matrix_multiplier_float/matrix_multiplier/mac_array/mac_with_memory/mac/mac.vhdl {1 {vcom -work work -2002 -explicit -stats=none /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/matrix_multiplier_float/matrix_multiplier/mac_array/mac_with_memory/mac/mac.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mac
+-- Compiling architecture rtl of mac
+-- Loading entity multiplier
+-- Loading entity sub_adder
+
+} {} {}} /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/matrix_multiplier_float/matrix_multiplier/mac_array_controller/counters/shifter_counter/shifter_counter.vhdl {1 {vcom -work work -2002 -explicit -stats=none /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/matrix_multiplier_float/matrix_multiplier/mac_array_controller/counters/shifter_counter/shifter_counter.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity shifter_counter
+-- Compiling architecture rtl of shifter_counter
+-- Loading entity column_counter
+-- Loading entity row_counter
+
+} {} {}} /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/matrix_multiplier_float/matrix_multiplier/mac_array_controller/counters/shifter_counter/column_counter.vhdl {1 {vcom -work work -2002 -explicit -stats=none /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/matrix_multiplier_float/matrix_multiplier/mac_array_controller/counters/shifter_counter/column_counter.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity column_counter
+-- Compiling architecture rtl of column_counter
+
+} {} {}} /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/matrix_multiplier_float/matrix_multiplier/mac_array_controller/mac_array_controller.vhdl {1 {vcom -work work -2002 -explicit -stats=none /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/matrix_multiplier_float/matrix_multiplier/mac_array_controller/mac_array_controller.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mac_array_controller
+-- Compiling architecture rtl of mac_array_controller
+-- Loading entity mac_array_controller_fsm
+-- Loading entity memory_decoder
+-- Loading entity operation_counter
+-- Loading entity macs_ena
+
+} {} {}} /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/matrix_multiplier_float/matrix_multiplier/mac_array_controller/memory_decoder/column_decoder/column_decoder.vhdl {1 {vcom -work work -2002 -explicit -stats=none /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/matrix_multiplier_float/matrix_multiplier/mac_array_controller/memory_decoder/column_decoder/column_decoder.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity column_decoder
+-- Compiling architecture rtl of column_decoder
+
+} {} {}} /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/matrix_multiplier_float/matrix_multiplier/mac_array/mac_with_memory/memory/single_memory.vhdl {1 {vcom -work work -2002 -explicit -stats=none /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/matrix_multiplier_float/matrix_multiplier/mac_array/mac_with_memory/memory/single_memory.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity single_memory
+-- Compiling architecture rtl of single_memory
+-- Loading package altera_mf_components
+-- Loading entity memory
+
+} {} {}} /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/utilities/barrelShifterLeft/singleBarrelShifterLeft.vhdl {1 {vcom -work work -2002 -explicit -stats=none /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/utilities/barrelShifterLeft/singleBarrelShifterLeft.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity singleBarrelShifterLeft
+-- Compiling architecture rtl of singleBarrelShifterLeft
+
+} {} {}} /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/matrix_multiplier_float/matrix_multiplier/mac_array_controller/memory_decoder/memory_decoder.vhdl {1 {vcom -work work -2002 -explicit -stats=none /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/matrix_multiplier_float/matrix_multiplier/mac_array_controller/memory_decoder/memory_decoder.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity memory_decoder
+-- Compiling architecture rtl of memory_decoder
+-- Loading entity shifter_counter
+-- Loading entity row_decoder
+-- Loading entity column_decoder
+-- Loading entity barrelShifter
+
+} {} {}} /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/utilities/barrel_shifter/singleBarrelShifter.vhdl {1 {vcom -work work -2002 -explicit -stats=none /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/utilities/barrel_shifter/singleBarrelShifter.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity singleBarrelShifter
+-- Compiling architecture rtl of singleBarrelShifter
+
+} {} {}} /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/utilities/type_results.vhdl {1 {vcom -work work -2002 -explicit -stats=none /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/utilities/type_results.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package type_results
+
+} {} {}} /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/matrix_multiplier_float/matrix_multiplier/mac_array/mac_array.vhdl {1 {vcom -work work -2002 -explicit -stats=none /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/matrix_multiplier_float/matrix_multiplier/mac_array/mac_array.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package type_results
+-- Compiling entity mac_array
+-- Compiling architecture rtl of mac_array
+-- Loading entity mac_with_memory
+
+} {} {}} /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/matrix_multiplier_float/matrix_multiplier/mac_array/mac_with_memory/mac/parallel_add/parallel_adder.vhd {1 {vcom -work work -2002 -explicit -stats=none /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/matrix_multiplier_float/matrix_multiplier/mac_array/mac_with_memory/mac/parallel_add/parallel_adder.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity parallel_adder
+-- Compiling architecture SYN of parallel_adder
+
+} {} {}} /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/matrix_multiplier_float/matrix_multiplier_float.vhdl {1 {vcom -work work -2002 -explicit -stats=none /home/juanfelipe/Documents/universidad/tesis/hardware/matrix_multiplier/hw/hdl/matrix_multiplier_avalon/matrix_multiplier_float/matrix_multiplier_float.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity matrix_multiplier_float
+-- Compiling architecture rtl of matrix_multiplier_float
+-- Loading entity float32_to_integer
+-- Loading package type_results
+-- Loading entity matrix_multiplier
+
+} {} {}}

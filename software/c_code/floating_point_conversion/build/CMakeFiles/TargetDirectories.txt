@@ -1,0 +1,6 @@
+/home/juanfelipe/Documents/universidad/tesis/software/c_code/floating_point_conversion/build/CMakeFiles/floating_point_conversion.dir
+/home/juanfelipe/Documents/universidad/tesis/software/c_code/floating_point_conversion/build/CMakeFiles/edit_cache.dir
+/home/juanfelipe/Documents/universidad/tesis/software/c_code/floating_point_conversion/build/CMakeFiles/rebuild_cache.dir
+/home/juanfelipe/Documents/universidad/tesis/software/c_code/floating_point_conversion/build/data_conversion/CMakeFiles/data_conversion.dir
+/home/juanfelipe/Documents/universidad/tesis/software/c_code/floating_point_conversion/build/data_conversion/CMakeFiles/edit_cache.dir
+/home/juanfelipe/Documents/universidad/tesis/software/c_code/floating_point_conversion/build/data_conversion/CMakeFiles/rebuild_cache.dir

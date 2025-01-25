@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Tue Feb 13 11:26:13 2024
+Quartus Prime Version : 23.1std.0 Build 991 11/28/2023 SC Lite Edition
+Revision Name : MACs
+Top-level Entity Name : MACs
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 264
+Total pins : 3
+Total virtual pins : 54
+Total block memory bits : 0
+Total DSP Blocks : 0
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 0
+Total DLLs : 0

@@ -1,0 +1,265 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "res[0]",
+					"strict" : false
+				},
+				{
+					"name" : "res[1]",
+					"strict" : false
+				},
+				{
+					"name" : "res[2]",
+					"strict" : false
+				},
+				{
+					"name" : "res[3]",
+					"strict" : false
+				},
+				{
+					"name" : "res[4]",
+					"strict" : false
+				},
+				{
+					"name" : "res[5]",
+					"strict" : false
+				},
+				{
+					"name" : "res[6]",
+					"strict" : false
+				},
+				{
+					"name" : "res[7]",
+					"strict" : false
+				},
+				{
+					"name" : "res[8]",
+					"strict" : false
+				},
+				{
+					"name" : "res[9]",
+					"strict" : false
+				},
+				{
+					"name" : "res[10]",
+					"strict" : false
+				},
+				{
+					"name" : "res[11]",
+					"strict" : false
+				},
+				{
+					"name" : "res[12]",
+					"strict" : false
+				},
+				{
+					"name" : "res[13]",
+					"strict" : false
+				},
+				{
+					"name" : "res[14]",
+					"strict" : false
+				},
+				{
+					"name" : "res[15]",
+					"strict" : false
+				},
+				{
+					"name" : "res[16]",
+					"strict" : false
+				},
+				{
+					"name" : "res[17]",
+					"strict" : false
+				},
+				{
+					"name" : "res[18]",
+					"strict" : false
+				},
+				{
+					"name" : "res[19]",
+					"strict" : false
+				},
+				{
+					"name" : "rd_clock",
+					"strict" : false
+				},
+				{
+					"name" : "rst",
+					"strict" : false
+				},
+				{
+					"name" : "mem_a_wren",
+					"strict" : false
+				},
+				{
+					"name" : "wr_clock",
+					"strict" : false
+				},
+				{
+					"name" : "mem_wren",
+					"strict" : false
+				},
+				{
+					"name" : "mem_rden",
+					"strict" : false
+				},
+				{
+					"name" : "operand[16]",
+					"strict" : false
+				},
+				{
+					"name" : "wraddress[0]",
+					"strict" : false
+				},
+				{
+					"name" : "wraddress[1]",
+					"strict" : false
+				},
+				{
+					"name" : "wraddress[2]",
+					"strict" : false
+				},
+				{
+					"name" : "wraddress[3]",
+					"strict" : false
+				},
+				{
+					"name" : "wraddress[4]",
+					"strict" : false
+				},
+				{
+					"name" : "wraddress[5]",
+					"strict" : false
+				},
+				{
+					"name" : "wraddress[6]",
+					"strict" : false
+				},
+				{
+					"name" : "wraddress[7]",
+					"strict" : false
+				},
+				{
+					"name" : "wraddress[8]",
+					"strict" : false
+				},
+				{
+					"name" : "wraddress[9]",
+					"strict" : false
+				},
+				{
+					"name" : "rdaddress[0]",
+					"strict" : false
+				},
+				{
+					"name" : "rdaddress[1]",
+					"strict" : false
+				},
+				{
+					"name" : "rdaddress[2]",
+					"strict" : false
+				},
+				{
+					"name" : "rdaddress[3]",
+					"strict" : false
+				},
+				{
+					"name" : "rdaddress[4]",
+					"strict" : false
+				},
+				{
+					"name" : "rdaddress[5]",
+					"strict" : false
+				},
+				{
+					"name" : "rdaddress[6]",
+					"strict" : false
+				},
+				{
+					"name" : "rdaddress[7]",
+					"strict" : false
+				},
+				{
+					"name" : "rdaddress[8]",
+					"strict" : false
+				},
+				{
+					"name" : "rdaddress[9]",
+					"strict" : false
+				},
+				{
+					"name" : "mem_b_wren",
+					"strict" : false
+				},
+				{
+					"name" : "operand[14]",
+					"strict" : false
+				},
+				{
+					"name" : "operand[13]",
+					"strict" : false
+				},
+				{
+					"name" : "operand[15]",
+					"strict" : false
+				},
+				{
+					"name" : "operand[1]",
+					"strict" : false
+				},
+				{
+					"name" : "operand[8]",
+					"strict" : false
+				},
+				{
+					"name" : "operand[3]",
+					"strict" : false
+				},
+				{
+					"name" : "operand[12]",
+					"strict" : false
+				},
+				{
+					"name" : "operand[4]",
+					"strict" : false
+				},
+				{
+					"name" : "operand[2]",
+					"strict" : false
+				},
+				{
+					"name" : "operand[9]",
+					"strict" : false
+				},
+				{
+					"name" : "operand[7]",
+					"strict" : false
+				},
+				{
+					"name" : "operand[10]",
+					"strict" : false
+				},
+				{
+					"name" : "operand[5]",
+					"strict" : false
+				},
+				{
+					"name" : "operand[11]",
+					"strict" : false
+				},
+				{
+					"name" : "operand[6]",
+					"strict" : false
+				},
+				{
+					"name" : "operand[0]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

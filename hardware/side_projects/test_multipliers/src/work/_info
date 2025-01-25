@@ -1,0 +1,94 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/juanfelipe/Documents/universidad/tesis/hardware/test_multipliers/src
+Eparallel_adder
+Z1 w1705876737
+Z2 DPx9 altera_mf 20 altera_mf_components 0 22 gV:l9C^?PSb6]b5V?_jR@3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8/home/juanfelipe/Documents/universidad/tesis/hardware/test_multipliers/src/parallel_add/parallel_adder.vhd
+Z6 F/home/juanfelipe/Documents/universidad/tesis/hardware/test_multipliers/src/parallel_add/parallel_adder.vhd
+l0
+L42
+V]YGnHD60GG=:DBla]ZDTR2
+!s100 F5LRFGYlZf?:nL?SHTSCm3
+Z7 OV;C;10.5b;63
+32
+Z8 !s110 1705878117
+!i10b 1
+Z9 !s108 1705878117.000000
+Z10 !s90 -reportprogress|300|-work|work|/home/juanfelipe/Documents/universidad/tesis/hardware/test_multipliers/src/parallel_add/parallel_adder.vhd|
+Z11 !s107 /home/juanfelipe/Documents/universidad/tesis/hardware/test_multipliers/src/parallel_add/parallel_adder.vhd|
+!i113 1
+Z12 o-work work
+Z13 tExplicit 1 CvgOpt 0
+Asyn
+R2
+R3
+R4
+Z14 DEx4 work 14 parallel_adder 0 22 ]YGnHD60GG=:DBla]ZDTR2
+l84
+L65
+Vjg[RPZMiFXKXSGK:@l7`J2
+!s100 `]6fJLUl7dK9GO_5>Tf401
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Etest_multipliers
+Z15 w1705878072
+Z16 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R3
+R4
+R0
+Z17 8/home/juanfelipe/Documents/universidad/tesis/hardware/test_multipliers/src/test_multipliers.vhdl
+Z18 F/home/juanfelipe/Documents/universidad/tesis/hardware/test_multipliers/src/test_multipliers.vhdl
+l0
+L5
+VNC5M^ScW4mn7b:9_]0^nD0
+!s100 9EleHZM[Zkm?@]C8[S@@d1
+R7
+32
+Z19 !s110 1705878118
+!i10b 1
+Z20 !s108 1705878118.000000
+Z21 !s90 -reportprogress|300|-work|work|/home/juanfelipe/Documents/universidad/tesis/hardware/test_multipliers/src/test_multipliers.vhdl|
+Z22 !s107 /home/juanfelipe/Documents/universidad/tesis/hardware/test_multipliers/src/test_multipliers.vhdl|
+!i113 1
+R12
+R13
+Artl
+R2
+R14
+R16
+R3
+R4
+Z23 DEx4 work 16 test_multipliers 0 22 NC5M^ScW4mn7b:9_]0^nD0
+l40
+L16
+Z24 V@C1]WbTOiQofIzWaPciEz1
+Z25 !s100 L_Cd=E;]UMW0YNA9>]EO00
+R7
+32
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R12
+R13

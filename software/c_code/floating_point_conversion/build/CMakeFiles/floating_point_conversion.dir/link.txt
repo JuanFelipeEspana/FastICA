@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/floating_point_conversion.dir/floating_point_conversion.c.o -o floating_point_conversion  -Wl,-rpath,/home/juanfelipe/Documents/universidad/tesis/software/c_code/floating_point_conversion/build/data_conversion data_conversion/libdata_conversion.so 

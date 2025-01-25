@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,libdata_conversion.so -o libdata_conversion.so CMakeFiles/data_conversion.dir/data_conversion.c.o 

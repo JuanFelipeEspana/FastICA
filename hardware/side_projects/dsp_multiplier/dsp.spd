@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file path="dsp_sim/dsp.vhd" type="VHDL" />
+ <topLevel name="dsp" />
+ <deviceFamily name="cyclonev" />
+</simPackage>

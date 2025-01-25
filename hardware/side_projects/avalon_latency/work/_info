@@ -1,0 +1,144 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency
+Eavalon_timer
+Z1 w1701460779
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8/home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl
+Z5 F/home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl
+l0
+L4
+VSIJS9>?oim39]JDm;ADS42
+!s100 55>]C6dH^am8_;EnVNSMj3
+Z6 OV;C;10.5b;63
+32
+Z7 !s110 1701460811
+!i10b 1
+Z8 !s108 1701460811.000000
+Z9 !s90 -reportprogress|300|-work|work|/home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl|
+Z10 !s107 /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer.vhdl|
+!i113 1
+Z11 o-work work
+Z12 tExplicit 1 CvgOpt 0
+Aavalonmmslave
+Z13 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z14 DPx6 altera 11 dffeas_pack 0 22 :S1C`o89Vbe5bV6`:6CaB3
+Z15 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z16 DPx6 altera 28 altera_primitives_components 0 22 z?[99Tn<@QGNik3V1c6ah1
+Z17 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z18 DEx4 work 16 univ_bin_counter 0 22 0U83feWVk1jZKl0:bKa0Y3
+R2
+R3
+Z19 DEx4 work 12 avalon_timer 0 22 SIJS9>?oim39]JDm;ADS42
+l29
+L16
+V]WW9JXOM[jEkCFPFCAjz:1
+!s100 [T`8ezQXjNC`YZhLWAL892
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eavalon_timer_tb
+Z20 w1701460219
+R2
+R3
+R0
+Z21 8/home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl
+Z22 F/home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl
+l0
+L4
+VZ1EB]GaGeW1L3]<TT:Scz1
+!s100 e:zS7aZ4_4W=9OW;gUhh22
+R6
+32
+R7
+!i10b 1
+R8
+Z23 !s90 -reportprogress|300|-work|work|/home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl|
+Z24 !s107 /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/avalon_timer_tb.vhdl|
+!i113 1
+R11
+R12
+Atestbench
+R19
+R2
+R3
+DEx4 work 15 avalon_timer_tb 0 22 Z1EB]GaGeW1L3]<TT:Scz1
+l15
+L7
+VlT^JdPG=2T3j9;lU_gAGM1
+!s100 ZlFV3W1nUX?mNn1ZzY[QJ2
+R6
+32
+R7
+!i10b 1
+R8
+R23
+R24
+!i113 1
+R11
+R12
+Euniv_bin_counter
+Z25 w1701457027
+R13
+R14
+R15
+R16
+R17
+R2
+R3
+R0
+Z26 8/home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/univ_bin_counter.vhdl
+Z27 F/home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/univ_bin_counter.vhdl
+l0
+L8
+V0U83feWVk1jZKl0:bKa0Y3
+!s100 mj25Fk_DK1R>a083[Fh=g3
+R6
+32
+Z28 !s110 1701460812
+!i10b 1
+R8
+Z29 !s90 -reportprogress|300|-work|work|/home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/univ_bin_counter.vhdl|
+Z30 !s107 /home/juanfelipe/Documents/UNIVERSIDAD/tesis/avalon_latency/univ_bin_counter.vhdl|
+!i113 1
+R11
+R12
+Auniv_bin_counter_arch
+R13
+R14
+R15
+R16
+R17
+R2
+R3
+R18
+l30
+L23
+Z31 VZKBFHo^KFSlb8EXM<KGiR0
+Z32 !s100 _GKB:83eKok:FPXRzmM7M2
+R6
+32
+R28
+!i10b 1
+R8
+R29
+R30
+!i113 1
+R11
+R12

@@ -1,0 +1,6 @@
+
+State Machine - |test_multipliers|pr_state
+Name pr_state.sum2 pr_state.sum1 pr_state.idle 
+pr_state.idle 0 0 0 
+pr_state.sum1 0 1 1 
+pr_state.sum2 1 0 1 

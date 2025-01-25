@@ -1,0 +1,291 @@
+m255
+K4
+z2
+Z0 !s12c _opt
+Z1 !s99 nomlopt
+!s12c _opt2
+R1
+R0
+R1
+Z2 !s12c _opt1
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R0
+R1
+R2
+R1
+R2
+R1
+R0
+R1
+!s11e vcom 2023.3 2023.07, Jul 17 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z3 d/home/juanfelipe/Documents/universidad/tesis/hardware/MACs/src
+T_opt
+!s110 1707927000
+VE8T=<m0gjH1dQj3@;Rb2f1
+Z4 04 14 9 work macs_testbench testbench 1
+=1-000ae431a4f1-65cce5d8-8732f-23c2
+R1
+Z5 !s12b OEM100
+Z6 !s124 OEM10U5 
+Z7 o-quiet -auto_acc_if_foreign -work work +acc
+Z8 tCvgOpt 0
+n@_opt
+Z9 OL;O;2023.3;77
+T_opt1
+!s110 1707608693
+V6io:@I5UJRcHH7GDaI0M`1
+R4
+=5-000ae431a4f1-65c80a75-7ebd4-35d8
+R1
+R5
+R6
+R7
+R8
+n@_opt1
+R9
+R3
+T_opt2
+!s110 1707926971
+V4Mj;W=QY`OKGX<XzA^@eX3
+R4
+=1-000ae431a4f1-65cce5bb-937d4-2385
+R1
+R5
+R6
+o-quiet -auto_acc_if_foreign -work work
+R8
+n@_opt2
+R9
+R3
+Emacs
+Z10 w1707608569
+Z11 DPx4 ieee 11 numeric_std 0 22 F8@]:i<mFK7<TjIzKcTGi0
+Z12 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
+Z13 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
+!i122 42
+R3
+Z14 8/home/juanfelipe/Documents/universidad/tesis/hardware/MACs/src/MACs.vhdl
+Z15 F/home/juanfelipe/Documents/universidad/tesis/hardware/MACs/src/MACs.vhdl
+l0
+L5 1
+V2bkjX:9ZA[A@CX4JGI]8h3
+!s100 HDfOg=MB?FWnC5514l2`]2
+Z16 OL;C;2023.3;77
+32
+Z17 !s110 1707608876
+!i10b 1
+Z18 !s108 1707608876.000000
+Z19 !s90 -reportprogress|300|-work|work|/home/juanfelipe/Documents/universidad/tesis/hardware/MACs/src/MACs.vhdl|
+Z20 !s107 /home/juanfelipe/Documents/universidad/tesis/hardware/MACs/src/MACs.vhdl|
+!i113 0
+Z21 o-work work
+Z22 tExplicit 1 CvgOpt 0
+Artl
+Z23 DEx4 work 9 sub_adder 0 22 mdgI]>]A`mM3IbgI`IIV71
+Z24 DEx4 work 10 multiplier 0 22 80BzM9BIl7oLfHA5e7@zH0
+R11
+R12
+R13
+Z25 DEx4 work 4 macs 0 22 2bkjX:9ZA[A@CX4JGI]8h3
+!i122 42
+l30
+L20 51
+VZ06[:F<@JI]0UU]PzM1oB2
+!s100 i<GjYzV@n3giKCjiElSoJ2
+R16
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Emacs_testbench
+Z26 w1707607399
+R11
+R12
+R13
+!i122 43
+R3
+Z27 8/home/juanfelipe/Documents/universidad/tesis/hardware/MACs/src/MACs_tb.vhdl
+Z28 F/home/juanfelipe/Documents/universidad/tesis/hardware/MACs/src/MACs_tb.vhdl
+l0
+L5 1
+VNG9N9CQ5DYol8d?>dBo2<0
+!s100 A]3mmIE03=YgML8:h4^Hn3
+R16
+32
+Z29 !s110 1707608878
+!i10b 1
+Z30 !s108 1707608878.000000
+Z31 !s90 -reportprogress|300|-work|work|/home/juanfelipe/Documents/universidad/tesis/hardware/MACs/src/MACs_tb.vhdl|
+Z32 !s107 /home/juanfelipe/Documents/universidad/tesis/hardware/MACs/src/MACs_tb.vhdl|
+!i113 0
+R21
+R22
+Atestbench
+R25
+R11
+R12
+R13
+DEx4 work 14 macs_testbench 0 22 NG9N9CQ5DYol8d?>dBo2<0
+!i122 43
+l16
+L9 33
+VofD]k`0d75zFU:]6:fNYd0
+!s100 6ogB^hlMDoiQT]_CN1m9<3
+R16
+32
+R29
+!i10b 1
+R30
+R31
+R32
+!i113 0
+R21
+R22
+Emultiplier
+Z33 w1707608657
+R11
+R12
+R13
+!i122 41
+R3
+Z34 8/home/juanfelipe/Documents/universidad/tesis/hardware/MACs/src/multiplier.vhdl
+Z35 F/home/juanfelipe/Documents/universidad/tesis/hardware/MACs/src/multiplier.vhdl
+l0
+L5 1
+V80BzM9BIl7oLfHA5e7@zH0
+!s100 c:6EW3o?1XFJ3Tkih[Qi03
+R16
+32
+Z36 !s110 1707608875
+!i10b 1
+Z37 !s108 1707608875.000000
+Z38 !s90 -reportprogress|300|-work|work|/home/juanfelipe/Documents/universidad/tesis/hardware/MACs/src/multiplier.vhdl|
+Z39 !s107 /home/juanfelipe/Documents/universidad/tesis/hardware/MACs/src/multiplier.vhdl|
+!i113 0
+R21
+R22
+Artl
+Z40 DPx9 altera_mf 20 altera_mf_components 0 22 77R]3e1eDFBiY:dg9ITnB3
+Z41 DEx4 work 14 parallel_adder 0 22 OiWN?c``;z90g?>5b;@AV2
+R11
+R12
+R13
+R24
+!i122 41
+l46
+L20 90
+V1UYY@NogBZRd5TaM^5VB>0
+!s100 B=N;^[@6WITmzQ:N:9>7]2
+R16
+32
+R36
+!i10b 1
+R37
+R38
+R39
+!i113 0
+R21
+R22
+Eparallel_adder
+Z42 w1707426141
+R40
+R12
+R13
+!i122 0
+R3
+Z43 8/home/juanfelipe/Documents/universidad/tesis/hardware/MACs/src/parallel_add/parallel_adder.vhd
+Z44 F/home/juanfelipe/Documents/universidad/tesis/hardware/MACs/src/parallel_add/parallel_adder.vhd
+l0
+Z45 L42 1
+VOiWN?c``;z90g?>5b;@AV2
+!s100 naio8J<F7f:WF[GojbZnZ3
+R16
+32
+!s110 1707603620
+!i10b 1
+Z46 !s108 1707603620.000000
+Z47 !s90 -reportprogress|300|-work|work|/home/juanfelipe/Documents/universidad/tesis/hardware/MACs/src/parallel_add/parallel_adder.vhd|
+Z48 !s107 /home/juanfelipe/Documents/universidad/tesis/hardware/MACs/src/parallel_add/parallel_adder.vhd|
+!i113 0
+R21
+R22
+Asyn
+R40
+R12
+R13
+R41
+!i122 0
+l92
+L69 321
+VK8A0h1=kVGARUOXeIO]RM3
+!s100 S7Lc6f:U0Jb`Z?N5bJf_c1
+R16
+32
+!s110 1707603621
+!i10b 1
+R46
+R47
+R48
+!i113 0
+R21
+R22
+Esub_adder
+Z49 w1706820480
+R12
+R13
+!i122 1
+R3
+Z50 8/home/juanfelipe/Documents/universidad/tesis/hardware/MACs/src/sub_add/sub_adder.vhd
+Z51 F/home/juanfelipe/Documents/universidad/tesis/hardware/MACs/src/sub_add/sub_adder.vhd
+l0
+R45
+VmdgI]>]A`mM3IbgI`IIV71
+!s100 zYakW<S^BTEN3i;iZ6=gW0
+R16
+32
+Z52 !s110 1707603625
+!i10b 1
+Z53 !s108 1707603625.000000
+Z54 !s90 -reportprogress|300|-work|work|/home/juanfelipe/Documents/universidad/tesis/hardware/MACs/src/sub_add/sub_adder.vhd|
+Z55 !s107 /home/juanfelipe/Documents/universidad/tesis/hardware/MACs/src/sub_add/sub_adder.vhd|
+!i113 0
+R21
+R22
+Asyn
+R12
+R13
+R23
+!i122 1
+l75
+L53 43
+VU0DAgcWHGH]G;iO4E>5WQ3
+!s100 >PJIBhM6e=T5]bDbQH5KR1
+R16
+32
+R52
+!i10b 1
+R53
+R54
+R55
+!i113 0
+R21
+R22
